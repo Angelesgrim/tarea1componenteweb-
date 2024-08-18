@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.componente {
+    background-color: #0029ff; 
+    width: 100%vw;/*viewport height*/ 
+    height: 100vh;/*viewport height*/ 
+    display:flex;
+     justify-content: center;
+    align-items: center;
+}
+
+.tarjeta{
+    background-color: #00ffc2;
+    padding: 32px 32px;
+    border-radius: 32px;
+    box-shadow: 0px 0px 20px rgb(108, 100, 100); 
+    display:flex;
+    flex-direction: column; /*cambia el eje principal (x= horizontal) por (y = vertical)
+    justify-content: center; /*eje principal*(y = vertical )*/
+    align-items: center; /*eje secundario* ( x = horizontal)*/
+    gap: 16px;
+}
+
+.nombre{
+   color: #0029ff; 
+   font-weight: bold;
+   font-size: 40px;
+}
+
+.boton{
+   display: inline-block;
+    background-color: #ffff;
+    padding: 16px 32px;
+    border-radius: 16px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.boton:hover{
+    background-color:#0029ff ;
+    color: aliceblue;
+}
